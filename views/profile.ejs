@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <title>Vending Machine</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+
+    <section class="page-header text-center">
+      <h1> Vending Inventory</h1>
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </section>
+
+    <section class="row">
+
+      <section class="inventoryList">
+        <h3>Inventory</h3>
+        <ul class="inventory">
+          <% for(var i=0; i<inventory.length; i++) {%>
+            <li class="inventoryLi">
+              <span><%= inventory[i].drink %></span>
+              <span><%= inventory[i].plus %></span>
+              <span><i class="fas fa-plus" aria-hidden="true"></i></span>
+            </li>
+            <% } %>
+          </ul>
+      </section>
+
+      <section class="stats">
+        <h1>Total Money Earned: $<%= money %></h1>
+
+        <h2>Add a beverage</h2>
+        <% if (user.local.email) { %>
+          <form action="/inventory" method="POST">
+            <input type="text" placeholder="Drinks" name="drink">
+            <button type="submit">Submit</button>
+          </form>
+      </section>
+
+        <% } %>
+
+      </section>
+    </section>
+    <script src="main.js"></script>
+
+  </body>
+  </html>

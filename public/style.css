@@ -1,0 +1,110 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  margin: 0 auto;
+}
+img{
+  height: 200px;
+}
+
+.vendingContainer{
+  display: block;
+  margin: 20px auto;
+  width: 386px;
+  height: 500px;
+  border: 1px solid black;
+  background: #fb4e42;
+}
+
+.itemBox{
+  width: 270px;
+  height: 425px;
+  border: 1px solid black;
+  display: block;
+  margin: -3px 0 0 27px;
+  background: #363636;
+}
+
+.displayItem{
+  width: 40%;
+  height: 118px;
+  float: left;
+  border: 1px solid #000;
+  margin: 10px 12px;
+}
+
+.displayItem h2{
+  border-bottom: 1px solid #000;
+  background: #eee;
+  height: 44px;
+  margin-top: 0px;
+}
+
+.displayItem span{
+  color: #fff;
+}
+
+.buttonContainer{
+  width: 70px;
+  height: 287px;
+  background-color: #fb4e42;
+  border: 1px solid #000;
+  display: block;
+  margin: -367px 304px;
+  float: left;
+}
+
+.item{
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 47px;
+}
+
+button{
+  font-size: 12px;
+  background: #fff;
+}
+
+#sumbit{
+  font-size: 12px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Backend Login */
+.container{
+  width: 100%;
+}
+.inventoryList{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.inventory{
+  float: left;
+  margin-right: 50px;
+  width: 200px;
+}
+
+.inventoryLi{
+  list-style: none;
+  margin: 5px 0 0 -38px;
+  background: #eee;
+  border-bottom: 1px solid #000;
+}
+
+.stats{
+  float: left;
+  width: 200px;
+}
+
+.stats h1{
+  font-size: 14px;
+}
+
+.stats h2{
+  font-size: 12px;
+}
