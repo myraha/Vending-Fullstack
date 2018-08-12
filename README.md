@@ -1,13 +1,11 @@
-# 21 Savage Message Board
+# Vending Machine: Fullstack
 
-This is my first application using user authorization - super neat! Users have the option to login or sign-up. Eventually they are brought to a profile page where they has personalized information about their account and the option to participate in the ongoing chat feed. Each message they submit will be accompanied by their username.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, Passport
+**Link** https://whispering-shelf-59933.herokuapp.com/
 
-## Lessons Learned:
-With this project we had multiple .ejs files to navigate through so we really got the chance to pull from the database in more complex ways.
+**Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, Passport
 
 ## Installation
 
